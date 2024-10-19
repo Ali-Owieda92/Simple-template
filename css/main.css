@@ -1,0 +1,121 @@
+.landing {
+    height: 50vh;
+    background-color: blueviolet;
+    color: #FFF;
+}
+.landing div {
+    width: calc(928px / 2);
+}
+.landing div  span:hover {
+    color: #9C27B0;
+}
+.landing .lorem::before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #EEE;
+    opacity: 0.2;
+}
+.landing .lorem p {
+    line-height: 2;
+    font-size: 15px;
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-bottom: 2rem;
+}
+.landing .lorem .btn {
+    border: none;
+    padding: 10px;
+    border-radius: 23px;
+    text-transform: uppercase;
+    width: 150px;
+    background-color: #008000ad;
+    color: #FFF;
+}
+.landing .lorem .btn:hover {
+    background-color: green;
+}
+.mangan {
+    position: relative;
+}
+.mangan::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: calc(100% + 30px);
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+.mangan .heading,
+.mangan .list {
+    width: calc(1140px / 2);
+}
+.mangan .heading button{
+    background-color: #FFF;
+    text-transform: uppercase;
+    width: 150px;
+    border-radius: 40px;
+    padding: 10px;
+}
+.mangan .heading p {
+    line-height: 2.5rem;
+}
+.mangan .list {
+    position: relative;
+    display: none;
+}
+.mangan .list::before {
+    content: "";
+    position: absolute;
+    left: -20px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #000;
+    opacity: 0.2;
+}
+.mangan .list div .fa-check{
+    color: green;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.image img {
+    max-width: 30rem;
+}
+div .inputs,
+div .links {
+    width: calc(1190px / 2);
+}
+.form .inputs p {
+    width: 24rem;
+}
+.form .links {
+    position: relative;
+}
+div .links::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background-color: #000;
+    opacity: 0.5;
+}
+.form {
+    position: relative;
+}
+.form::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 105%;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    opacity: 0.4;
+}
